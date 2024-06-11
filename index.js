@@ -11,7 +11,7 @@ const app = express()
 const PORT = process.env.PORT || 4000
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000' })) // Allow requests from localhost:3001
+app.use(cors({ origin: 'https://resilient-sawine-367423.netlify.app' })) // Allow requests from localhost:3001
 app.use(
 	bodyParser.urlencoded({
 		extended: true,
