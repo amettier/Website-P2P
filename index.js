@@ -11,7 +11,7 @@ const app = express()
 const PORT = process.env.PORT || 10000
 
 // Middleware
-app.use(cors({ origin: 'https://6682910dd48b4f173154540a--comforting-clafoutis-cc03ab.netlify.app/' })) // Allow requests from localhost:3001
+app.use(cors({ origin: 'https://6682910dd48b4f173154540a--comforting-clafoutis-cc03ab.netlify.app/auth/register' })) // Allow requests from localhost:3001
 app.use(
 	bodyParser.urlencoded({
 		extended: true,
