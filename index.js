@@ -8,10 +8,10 @@ const { JWT_SECRET } = require('./config')
 const { loadData, saveData } = require('./loaders')
 
 const app = express()
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 10000
 
 // Middleware
-app.use(cors({ origin: 'https://resilient-sawine-367423.netlify.app' })) // Allow requests from localhost:3001
+app.use(cors({ origin: 'https://6682910dd48b4f173154540a--comforting-clafoutis-cc03ab.netlify.app/' })) // Allow requests from localhost:3001
 app.use(
 	bodyParser.urlencoded({
 		extended: true,
